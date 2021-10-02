@@ -1,0 +1,116 @@
+*{
+	padding:0px;
+	margin:0px;
+	
+}
+header , section , nav , p  , img , h1 , aside{
+	display:block;
+} 
+h1{
+	font:bold 40px fantasy;
+	margin-left:500px;
+	
+}
+body{
+	width:100%;
+	height:100%;
+	
+	display:-webkit-box;
+	-webkit-box-flex:1;
+    -webkit-box-pack:center;
+	
+}
+
+#big_wrapper{
+
+	
+	height:1000px;
+	width:1600px;
+    
+	
+	
+}
+
+#top_header{
+	background-color:#ddd;
+	text-align:center;
+	font-family:fantasy;
+	color:black;
+	display:-webkit-box;
+	-webkit-box-flex:1;
+	
+}
+
+#main_menu{
+       background:#282828;
+       overflow:hidden;	   
+ 	   border-bottom:5px solid yellow;
+       width:1600px;	  
+}
+
+#main_menu li{
+	padding:14px 16px;
+	float:left;
+	text-align:center;
+	color:white;
+	list-style-type:none;
+	font-family:fantasy;
+	font-size:21px;
+}
+#main_menu li:hover{
+	background:#FC0F3E;
+	color:white;
+	font-family:fantasy;
+}
+
+
+a{
+	color:white;
+	text-decoration:none;
+}
+
+
+
+#S{
+	background:red;
+	color:white;
+	
+}
+
+#Main_Section{
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	
+}
+#Yo{
+	
+	height:700px;
+	width:600px;
+	margin-left:140px;
+	margin-top:20px;
+
+	
+	
+}
+
+#Hope{
+	font-family:tahoma;
+	font-size:24px;
+	margin-top:20px;
+
+	
+}
+#da_footer{
+	border-top:8px solid #720000;
+	text-align:center;
+	margin-top:40px;
+	
+}
+#da_footer li{
+	list-style-type:none;
+	display:inline-block;
+	margin-left:20px;
+    font-family:tahoma;
+    font-size:28px;
+    color:red;	
+}

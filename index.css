@@ -1,0 +1,141 @@
+*{
+	padding:0px;
+	margin:0px;
+	
+}
+header , section , nav , p  , img , h1 , aside{
+	display:block;
+} 
+h1{
+	font:bold 40px fantasy;
+	margin-left:500px;
+	
+}
+body{
+	width:100%;
+	height:100%;
+	
+	display:-webkit-box;
+	-webkit-box-flex:1;
+    -webkit-box-pack:center;
+	
+}
+#goal{
+	font-family:tahoma;
+	font-size:24px;
+	
+}
+#big_wrapper{
+
+	
+	height:1000px;
+	width:1600px;
+    
+	
+	
+}
+
+#top_header{
+	background-color:#ddd;
+	text-align:center;
+	font-family:fantasy;
+	color:black;
+	display:-webkit-box;
+	-webkit-box-flex:1;
+	
+}
+
+#main_menu{
+       background:#282828;
+       overflow:hidden;	   
+ 	   border-bottom:5px solid red;
+       width:100%;	  
+}
+
+#main_menu li{
+	padding:14px 16px;
+	float:left;
+	text-align:center;
+	color:white;
+	list-style-type:none;
+	font-family:fantasy;
+	font-size:21px;
+}
+#main_menu li:hover{
+	background:#FC0F3E;
+	color:white;
+	font-family:fantasy;
+}
+#S{
+	background:red;
+	color:white;
+	
+	
+}
+#S a{
+	color:white;
+	text-decoration:none;
+	
+}
+
+#Small_Div{
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	margin-bottom:0px;
+	border-bottom:12px solid #ddd;
+	margin-left:50px;
+	
+	
+}
+
+#Art1{
+
+	width:800px;
+	height:2000px;
+    margin-top:20px;
+	margin-left:40px;
+	font-size:24px;
+	
+}
+#Art2{
+	margin-left:50px;
+	border:2px solid red;
+	width:500px;
+    height:600px;
+
+	margin-top:20px;
+}
+
+h2{
+	font-size:35px;
+	font-family:fantasy;
+	background:black;
+	color:#ddd;
+	margin-top:7px;
+
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}
+
+#J{
+	margin-left:50px;
+	
+}
+#Champ{
+	margin-left:20px;
+	
+}
+#Art3{
+
+	width:500px;
+	height:500px;
+	margin-top:20px;
+
+    
+}
+
+a{
+	color:white;
+	text-decoration:none;
+}
+
